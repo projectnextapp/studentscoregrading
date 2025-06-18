@@ -1,15 +1,15 @@
 // Student scores - put your scores here
-var scores = [85, 92, 67, 78, 95, 73, 88, 64, 91, 76];
+var scores = [85, 92, 67, 69, 95, 73, 88, 64, 91, 26];
 
 // This function gives a grade based on the score
 function getGrade(score) {
-    if (score >= 90) {
+    if (score >= 70 ) {
         return "A";
-    } else if (score >= 80) {
-        return "B";
-    } else if (score >= 70) {
-        return "C";
     } else if (score >= 60) {
+        return "B";
+    } else if (score >= 50) {
+        return "C";
+    } else if (score >= 40) {
         return "D";
     } else {
         return "F";
